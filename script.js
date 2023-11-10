@@ -5,7 +5,9 @@ btn.addEventListener("click",onclick);
  let i=0;
  let currentValue = parseInt(p.innerText);
 function onclick(){
-	alert(currentValue);
 	
-	p.innerText=currentValue + 1;	
+	alert(currentValue);
+	currentValue++;
+	p.innerText=currentValue ;	
+	
 }
