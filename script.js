@@ -9,5 +9,5 @@ function onclick(){
 	p.innerText=i;
 	
 	
-	"i love you him"
+	
 }
