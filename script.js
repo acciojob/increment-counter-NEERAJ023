@@ -2,9 +2,12 @@
 let p=document.querySelector("#counter");
 let btn=document.querySelector("#incrementBtn");
 btn.addEventListener("click",onclick);
- let i=1;
+ let i=0;
 function onclick(){
-	p.innerText=i;
 	alert(p.innerText);
 	i++;
+	p.innerText=i;
+	
+	
+	"i love you him"
 }
