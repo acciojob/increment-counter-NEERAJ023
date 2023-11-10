@@ -3,11 +3,9 @@ let p=document.querySelector("#counter");
 let btn=document.querySelector("#incrementBtn");
 btn.addEventListener("click",onclick);
  let i=0;
+ let currentValue = parseInt(p.innerText);
 function onclick(){
-	alert(`${p.innerText}`);
-	i++;
-	p.innerText=i;
+	alert(currentValue);
 	
-	
-	
+	p.innerText=currentValue + 1;	
 }
