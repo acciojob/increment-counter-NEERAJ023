@@ -4,7 +4,7 @@ let btn=document.querySelector("#incrementBtn");
 btn.addEventListener("click",onclick);
  let i=0;
 function onclick(){
-	alert(p.innerText);
+	alert(`${p.innerText}`);
 	i++;
 	p.innerText=i;
 	
